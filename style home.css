@@ -1,0 +1,263 @@
+html {
+    background-color: #acd1b2;
+    font-family:Verdana;
+}
+
+#pagehome .right {
+    float: right;
+    margin-right: 2em;
+}
+#pagehome a:hover {
+    
+}
+
+#pagehome .left {
+    float: left;
+    margin-left: 2em;
+}
+
+#pagehome #footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+}
+
+#pagehome #header {
+	position: relative;
+	background-color: #fef6fc;
+	height: 150px;
+    border: 15px solid black;
+}
+
+#pagehome .description {
+    font-size: 1.75em;
+}
+#pagehome h1 {
+    font-size: 2.5em;
+}
+#pagehome h2 {
+    font-size: 2em;
+    margin-left: 300px;
+    text-decoration: underline;
+}
+#pagehome h3 {
+    margin-left: 900px;
+    text-decoration: underline;
+    font-size: 2em;
+}
+#pagehome .headerfooter {
+    margin: 25px 0px 0px 0px;
+    border: 15px solid black;
+    background-color: black;
+    clear: both;
+}
+
+#pagehome a {
+    color:white;
+}
+
+#pagehome .mySlides {
+    display:none
+}
+
+#pagehome .slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+#pagehome .text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 3px 5px;
+  position: absolute;
+  bottom: 5px;
+  width: 90%;
+  text-align: center;
+}
+
+#pagehome .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#programmer .border {
+    border-left: solid black 1px;
+}
+
+#programmer #header {
+	position: relative;
+	background-color: #fef6fc;
+	height: 90px;
+}
+#programmer div {
+    margin: 25px 0px 0px 0px;
+    border: 15px solid black;
+    background-color: black;
+    clear: both;
+    }
+#programmer .text {
+    font-size:1.75em;
+}
+
+#programmer a {
+    color:#ffffff;
+}
+#programmer h2 {
+    text-decoration: underline;
+}
+
+#pagehome .container {
+    position: relative;
+    width: 50%;
+}
+
+#pagehome .image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#pagehome .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+#pagehome .middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+#pagehome .middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 52%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#pagehome .container:hover .image {
+  opacity: 0.3;
+}
+
+#pagehome .container:hover .middle {
+  opacity: 1;
+}
+#pagehome .container:hover .middle2 {
+  opacity: 1;
+}
+#pagehome .container:hover .middle3 {
+  opacity: 1;
+}
+#designer .border {
+    border-left: solid black 1px;
+}
+
+#designer #header {
+	position: relative;
+	background-color: #fef6fc;
+	height: 90px;
+}
+#designer div {
+    margin: 25px 0px 0px 0px;
+    border: 15px solid black;
+    background-color: black;
+    clear: both;
+    }
+#designer .text {
+    font-size:1.75em;
+    margin-left: 100px;
+}
+#designer a {
+    color:#ffffff;
+}
+#designer h2 {
+    text-decoration: underline;
+}
+#director .border {
+    border-left: solid black 1px;
+}
+
+#director #header {
+	position: relative;
+	background-color: #fef6fc;
+	height: 90px;
+}
+#director div {
+    margin: 25px 0px 0px 0px;
+    border: 15px solid black;
+    background-color: black;
+    clear: both;
+    }
+#director .text {
+    font-size:1.75em;
+}
+#director a {
+    color:#ffffff;
+}
+#director h2 {
+    text-decoration: underline;
+}
+
+
+
+#source #header {
+	position: relative;
+	background-color: #fef6fc;
+	height: 90px;
+}
+#source div {
+    margin: 25px 0px 0px 0px;
+    border: 15px solid black;
+    background-color: black;
+    clear: both;
+    }
+#source .text {
+    font-size:1.75em;
+}
+#source table > a {
+    color:#ffffff;
+}
+#source h2 {
+    text-decoration: underline;
+}
+#source .border {
+    border-left: solid black 1px;
+}
+
+#source p {
+    font-size:1.25em;
+}
+
+#source tr {
+    clear:both;
+}
