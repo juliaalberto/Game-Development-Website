@@ -4,4 +4,5 @@ HELLO! This is a group project I did in my Computer Science Class in High School
 
 Hope it Works out okay! Thank you for checking it out! :)
 
-- Julia ALberto
+- Julia Alberto
+
